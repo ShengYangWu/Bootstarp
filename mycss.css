@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu:400,700");
+* {
+  font-family:'Ubuntu', sans-serif;
+}
+
+.navbar-brand {
+  font-size:1.8em;
+  font-weight:bold;
+}
+
+#topContainer {
+  background-image:url("http://i.imgur.com/kif4QfF.jpg");
+  height:400px;
+  width:100%;
+}
+
+#topRaw {
+  margin-top:100px;
+  text-align:center;
+}
+
+#topRaw h1 {
+  font-size:3em;
+}
+
+.bold {
+  font-weight:bold;
+}
+
+.marginTop {
+  margin-top:30px;
+}
+
+.center {
+  text-align:center;
+}
+
+.title {
+  margin-top:100px;
+  font-size:3em;
+}
+
+#footer {
+  background-color:#e98c6d;
+    width:100%;
+}
+
+.appstoreImage {
+  width:300px;
+}
+
+.googleplayImage {
+  width:300px;
+  margin-left:30px;
+}
+
+.marginBottom {
+  margin-bottom:30px;
+}

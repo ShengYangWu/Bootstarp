@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Bootstrap</title>
+  <link rel="stylesheet" type="text/css" href="mycss.css">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src='myjs.js'></script>
+</head>
+<body data-spy="scroll" data-target=".navbar-collapse">
+  <div class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand">My Website</a>
+      </div>
+      <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#topContainer">Home</a></li>
+          <li><a href="#secondContainer">About</a></li>
+          <li><a href="#footer">Download The App</a></li>
+        </ul>
+        <form class="navbar-form navbar-right">
+          <div class="form-group">
+            <input class="form-control" type="email" placeholder="Email"/>
+          </div>
+          
+          <div class="form-group">
+            <input class="form-control" type="password" placeholder="Password"/>
+          </div>
+          <button type="submit" class="btn btn-success">LogIn</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="container contentContainer" id="topContainer">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3" id="topRaw">
+        <h1 class="marginTop">My Amazing App</h1>
+        <p class="lead marginTop">This is why you should download this fantastic app</p>
+        <p>Some more information about this app. You can go to a liitle bit more detail here if you want to.</p>
+        <p class="bold">Interested? Join our mailing list!</p>
+        <form>
+          <div class="input-group marginTop">
+            <span class="input-group-addon">Your email</span>
+            <input type="email" class="form-control"/>
+          </div>
+          <input type="submit" class="btn btn-success btn-lg marginTop" value="Submit"/>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="container contentContainer marginBottom" id="secondContainer">
+    <div class="row">
+      <h1 class="center title">Why this app awesome</h1>
+      <p class="lead center">Summary of the App's awesomeness</p>
+    </div>
+    <div class="row">
+      <div class="col-md-4 marginTop">
+        <h2><span class="glyphicon glyphicon-music"></span> Music</h2>
+        <p class="marginTop">Music that you enjoy most, updates that you anticipate most plus other new genres to discover, we gives you a brand new world of music!Music recommendations specifcially tailored for you.</p>
+        <button class="btn btn-success marginTop">Learn more</button>
+      </div>
+      
+     <div class="col-md-4 marginTop">
+        <h2><span class="glyphicon glyphicon-globe
+"></span> Have it everywhere</h2>
+        <p class="marginTop">Capture a note once, and it¡¦s instantly available on all your devices. Never worry about where you saved something because it¡¦s in Evernote, and Evernote is wherever you are.</p>
+        <button class="btn btn-success marginTop">Learn more</button>
+      </div>
+      
+      <div class="col-md-4 marginTop">
+        <h2><span class="glyphicon glyphicon-pencil"></span> Make a note of it</h2>
+        <p class="marginTop">Create a project to-do list. Jot down a reminder. Or snap a picture of a sketch. A note can be anything you want it to be. And once you make a note, it¡¦s accessible wherever you go, forever.</p>
+        <button class="btn btn-success marginTop">Learn more</button>
+      </div>
+    </div>
+  </div>
+  <div class="container contentContainer" id="footer">
+    <div class="row">
+      <h1 class="center title">Download the app</h1>
+      <p class="lead center">Really, where should I download this app?</p>
+      <p class="center"><img src="http://i.imgur.com/bwsaaZA.png" class="appstoreImage"/><img src="http://i.imgur.com/jTeB4EY.png" class="googleplayImage"/></p>
+  
+    </div>
+  </div>
+</body>
+</html>
